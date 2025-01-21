@@ -17,9 +17,9 @@ import javax.swing.JOptionPane;
  * Each call to a method, such as nextInt, tries to find a value in the next unseen index
  *    of the args array.   If such an entry does not exist, or is not of the proper format,
  *    then the user is prompted to supply a value.
- * The prefered manner of obtaining an input is to specify a prompt in case the user
+ * The preferred manner of obtaining an input is to specify a prompt in case the user
  *    must be approached for the input's value.   For example, if you need the radius of
- *    a circule to compute the circle's area, and "ap" is the variable holding the
+ *    a circle to compute the circle's area, and "ap" is the variable holding the
  *    ArgsProcessor reference, then you might obtain your input value via:
  * 
  *  int radius = ap.nextInt("Circle's radius, in centimeters?");
